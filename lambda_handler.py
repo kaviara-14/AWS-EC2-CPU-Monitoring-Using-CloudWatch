@@ -4,11 +4,11 @@ def lambda_handler(event, context):
     # TODO implement
 
     client = boto3.client('sns')
-    snsArn = 'arn:aws:sns:us-east-1:992382388720:snsMail'
-    message = "This is a test notification."
+    snsArn = 'your ARN'
+    message = "Dear Team, This is to inform you that the CPU utilization has reached 50%. While this level is not critical, it’s advisable to monitor the situation to ensure there are no underlying issues affecting performance."
 
     response = client.publish(
         TopicArn = snsArn,
         Message = message ,
-        Subject='Hello'
+        Subject='"Alert: CPU Utilization reached 50%"'
     )
