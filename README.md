@@ -7,7 +7,7 @@ Hosted a Nodejs application in EC2 Instance with Auto scaling and Application Lo
 
 ## For increasing the CPU Utilization use this commands
 
-sudo dnf update
-sudo dnf install stress-ng -y
-sudo yum install stress -y
+sudo dnf update<br>
+sudo dnf install stress-ng -y<br>
+sudo yum install stress -y<br>
 stress -c 4
