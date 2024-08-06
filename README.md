@@ -23,10 +23,10 @@ Automatically adjust the number of EC2 instances based on CPU utilization metric
     stress -c 4
 
 ### 5. Create CloudWatch Alarm
-Monitor CPU utilization of EC2 instances and trigger alarms when thresholds exceed 65%. Use alarms to initiate scaling actions and invoke notifications.
+Create a Alarm which Monitor CPU utilization of EC2 instances and it triggers whenever thresholds exceed 65%.And this also will invoke a Lambda function.
 
 ### 6. Create a Lambda Function
-Execute code in response to CloudWatch alarms to send email notifications via SNS. Configure permissions and triggers for real-time alerts
+This Lambda execute code in response to CloudWatch alarms to send email notifications via SNS. Configure permissions and triggers for real-time alerts
 
 ### 7. Create SNS Topic
 Manage and distribute email notifications for alarms triggered by CloudWatch. Create a topic and subscribe email addresses to receive alerts.
