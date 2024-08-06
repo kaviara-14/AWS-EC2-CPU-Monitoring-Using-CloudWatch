@@ -4,6 +4,8 @@ Hosted a Nodejs application in EC2 Instance with Auto scaling and Application Lo
 
 **AWS Services :** EC2 Instance, Auto Scaling Groups, Application Load Balancer, VPC, CloudWatch, Lambda, SNS Topic
 
+## Project Description
+
 ### 1. Create an EC2 Instance
 Host the Node.js application on scalable Amazon EC2 instances, configured with a launch template or configuration. Ensure the application is deployed and accessible via the Application Load Balance
 
