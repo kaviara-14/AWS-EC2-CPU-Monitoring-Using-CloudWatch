@@ -17,7 +17,7 @@ Auto Scaling Group manages the number of EC2 instances dynamically based on the 
 
 
 ### 4. For increasing the CPU Utilization use this commands
-Go to CLI executes this commands
+Go to AWS CLI executes this commands
 
     sudo dnf update<br>
     sudo dnf install stress-ng -y<br>
